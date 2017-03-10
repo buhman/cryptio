@@ -3,7 +3,7 @@ from base64 import b64encode
 
 import pytest
 
-import aeadfiles
+import cryptio
 
 
 test_data = [
@@ -30,12 +30,12 @@ def test_roundtrip(fs, key):
     # fixme
     os.open = new_open
 
-    with aeadfiles.open('test', mode='wb', key=key) as f:
+    with cryptio.open('test', mode='wb', key=key) as f:
         for data in test_data:
             f.write(data)
 
     assert fs.Exists('test')
 
-    with aeadfiles.open('test', mode='rb', key=key) as f:
+    with cryptio.open('test', mode='rb', key=key) as f:
         for data in test_data:
             assert data == f.read(len(data))

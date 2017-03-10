@@ -1,5 +1,5 @@
 [run]
-source = aeadfiles
+source = cryptio
 omit =
      site-packages
      tests
