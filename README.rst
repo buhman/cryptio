@@ -12,6 +12,8 @@ cryptio
 
 cryptio provides a file-like interface for authenticated encryption.
 
+.. _cryptography: https://cryptography.io/en/latest/
+
 Features
 --------
 
