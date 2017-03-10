@@ -1,13 +1,11 @@
 import builtins
-import logging
 import io
-import os
 
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from memoized_property import memoized_property
 
-from aeadfiles.header import CryptHeader
+from cryptio.header import CryptHeader
 
 
 def default_cipher(key, iv, tag=None):

@@ -3,21 +3,21 @@
 API
 ===
 
-.. module:: aeadfiles
+.. module:: cryptio
 
-This documents all interfaces of aeadfiles.
+This documents all interfaces of cryptio.
 
 Open Interface
 --------------
 
-.. currentmodule:: aeadfiles.io
+.. currentmodule:: cryptio.io
 
 .. autofunction:: open
 
 File Interface
 --------------
 
-.. currentmodule:: aeadfiles.io
+.. currentmodule:: cryptio.io
 
 .. autoclass:: CryptIO
    :members: read, write, close

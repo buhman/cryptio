@@ -1,22 +1,22 @@
-aeadfiles package
-=================
+cryptio package
+===============
 
 Submodules
 ----------
 
-aeadfiles.header module
------------------------
+cryptio.header module
+---------------------
 
-.. automodule:: aeadfiles.header
+.. automodule:: cryptio.header
     :noindex:
     :members:
     :undoc-members:
     :show-inheritance:
 
-aeadfiles.io module
--------------------
+cryptio.io module
+-----------------
 
-.. automodule:: aeadfiles.io
+.. automodule:: cryptio.io
     :noindex:
     :members:
     :undoc-members:
@@ -26,7 +26,7 @@ aeadfiles.io module
 Module contents
 ---------------
 
-.. automodule:: aeadfiles
+.. automodule:: cryptio
     :noindex:
     :members:
     :undoc-members:

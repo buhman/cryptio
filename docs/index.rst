@@ -1,7 +1,7 @@
-aeadfiles: authenticated file encryption library
-================================================
+cryptio: authenticated file encryption library
+==============================================
 
-aeadfiles provides a file-like interface for authenticated encryption.
+cryptio provides a file-like interface for authenticated encryption.
 
 .. _cryptography: https://cryptography.io/en/latest/
 
@@ -18,7 +18,7 @@ Library Installation
 
 .. code-block:: bash
 
-   $ pip install aeadfiles
+   $ pip install cryptio
 
 Getting Started
 ---------------
@@ -26,16 +26,16 @@ Getting Started
 Example::
 
     import os
-    import aeadfiles
+    import cryptio
 
     key = os.urandom(32)
 
     data = b'binary data'
 
-    with aeadfiles.open('test', 'wb') as f:
+    with cryptio.open('test', 'wb') as f:
         f.write(data)
 
-    with aeadfiles.open('test', 'wb') as f:
+    with cryptio.open('test', 'wb') as f:
         assert f.read() == data
 
 Contents
