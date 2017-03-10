@@ -1,0 +1,6 @@
+# tox
+tox>=2.6.0
+tox-pyenv>=1.0.3
+
+# codecov
+codecov>=2.0.5

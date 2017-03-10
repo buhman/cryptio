@@ -1,0 +1,17 @@
+*.pyc
+*.pyo
+*.so
+.svn
+target/
+.class/
+*.egg-info/
+dist/
+build/
+AUTHORS
+ChangeLog
+.cache/
+.idea/
+.tox/
+.eggs/
+.coverage
+.python-version

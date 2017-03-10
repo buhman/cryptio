@@ -1,0 +1,5 @@
+[run]
+source = aeadfiles
+omit =
+     site-packages
+     tests
