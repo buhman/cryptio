@@ -10,3 +10,9 @@ dependencies:
 test:
   post:
     - codecov
+
+deployment:
+  pypi:
+    branch: master
+    commands:
+      - tox -e pypi
