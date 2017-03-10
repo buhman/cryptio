@@ -1,4 +1,4 @@
-from aeadfiles.aeadfiles import open
+from aeadfiles.io import open
 
 
 __all__ = ['open']
