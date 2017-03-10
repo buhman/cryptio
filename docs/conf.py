@@ -40,6 +40,10 @@ html_theme_options = {
         {
             'image': 'https://img.shields.io/codecov/c/github/ptpb/cryptio.svg',
             'target': 'https://codecov.io/gh/ptpb/cryptio'
+        },
+        {
+            'image': 'https://img.shields.io/pypi/v/cryptio.svg',
+            'target': 'https://pypi.org/project/cryptio/'
         }
     ]
 }

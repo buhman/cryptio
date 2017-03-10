@@ -35,7 +35,7 @@ Example::
     with cryptio.open('test', 'wb') as f:
         f.write(data)
 
-    with cryptio.open('test', 'wb') as f:
+    with cryptio.open('test', 'rb') as f:
         assert f.read() == data
 
 Contents
