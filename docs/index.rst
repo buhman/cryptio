@@ -45,6 +45,7 @@ Contents
    :maxdepth: 2
 
    api
+   disk-format
    modules
 
 Indices and tables
