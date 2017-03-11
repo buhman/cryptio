@@ -1,4 +1,3 @@
-import io
 import logging
 import os
 from base64 import urlsafe_b64encode
@@ -11,8 +10,6 @@ class CryptHeader:
     def __init__(self, _file):
         self._file = _file
         self._pos = _file.tell()
-        if self._pos is None:
-            self._pos = 0
 
         self.iv = None
         self.tag = None
