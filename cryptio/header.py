@@ -27,8 +27,8 @@ class CryptHeader:
         if tag:
             self.tag = tag
 
-        assert len(self.iv) == self._iv_length
-        assert len(self.tag) == self._tag_length
+        assert self.iv is not None and len(self.iv) == self._iv_length
+        assert self.tag is not None and len(self.tag) == self._tag_length
 
         self._file.seek(self._pos)
         self._file.write(self.iv)
