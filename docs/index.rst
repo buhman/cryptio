@@ -32,10 +32,10 @@ Example::
 
     data = b'binary data'
 
-    with cryptio.open('test', 'wb') as f:
+    with cryptio.open('test', 'wb', key=key) as f:
         f.write(data)
 
-    with cryptio.open('test', 'rb') as f:
+    with cryptio.open('test', 'rb', key=key) as f:
         assert f.read() == data
 
 Contents
